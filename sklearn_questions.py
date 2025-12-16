@@ -18,7 +18,8 @@ repo `pytest test_sklearn_questions.py`. Note that to be fully valid, a
 scikit-learn estimator needs to check that the input given to `fit` and
 `predict` are correct using the `validate_data, check_is_fitted` functions
 imported in this file.
-You can find more information on how they should be used in the following doc:
+You can find more information on how they should be used in the
+following doc:
 https://scikit-learn.org/stable/developers/develop.html#rolling-your-own-estimator.
 Make sure to use them to pass `test_nearest_neighbor_check_estimator`.
 
@@ -159,7 +160,7 @@ class MonthlySplit(BaseCrossValidator):
 
     def get_n_splits(self, X, y=None, groups=None):
         """Return the number of splitting iterations in the cross-validator.
-        
+
         Parameters
         ----------
         X : array-like of shape (n_samples, n_features)
