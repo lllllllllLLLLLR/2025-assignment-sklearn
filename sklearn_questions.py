@@ -70,6 +70,7 @@ class KNearestNeighbors(ClassifierMixin, BaseEstimator):
 
     def fit(self, X, y):
         """Fitting function.
+
         Parameters
         ----------
         X : ndarray, shape (n_samples, n_features)
@@ -91,6 +92,7 @@ class KNearestNeighbors(ClassifierMixin, BaseEstimator):
 
     def predict(self, X):
         """Predict function.
+
         Parameters
         ----------
         X : ndarray, shape (n_test_samples, n_features)
@@ -120,6 +122,7 @@ class KNearestNeighbors(ClassifierMixin, BaseEstimator):
 
     def score(self, X, y):
         """Calculate the score of the prediction.
+
         Parameters
         ----------
         X : ndarray, shape (n_samples, n_features)
